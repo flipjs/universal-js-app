@@ -1,15 +1,4 @@
 import React from 'react'
-import css from 'next/css'
+import style from '../css/style'
 
 export default () => <h1 className={style}>About Page</h1>
-
-const style = css({
-  color: 'red',
-  ':hover': {
-    color: 'blue',
-    cursor: 'pointer'
-  },
-  '@media (max-width: 500px)': {
-    color: 'rebeccapurple'
-  }
-})

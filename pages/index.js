@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default () => (
   <div>
@@ -8,6 +9,9 @@ export default () => (
       <title>Hello, World!</title>
     </Head>
     <h1>Hello, World!</h1>
-    <a href='/about'>About page</a>
+    <ul>
+    </ul>
+    <li><Link href='/about'>About page</Link></li>
+    <li><Link href='/hello'>Hello from...</Link></li>
   </div>
 )
