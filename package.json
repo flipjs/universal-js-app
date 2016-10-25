@@ -1,0 +1,17 @@
+{
+  "name": "universal-js-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Felipe Apostol <flipjs.io@gmail.com> (http://flipjs.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "next": "1.0.0"
+  }
+}
